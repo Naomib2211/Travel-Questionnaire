@@ -8,4 +8,23 @@
 body {
    background-image: url('/assets/images/background-image.jpg');
    background-size: cover;
+   
 }
+#question-box{
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#question, #start-btn {
+    font-family: 'Karla', sans-serif;
+}
+
+.btn, .back-btn{
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
