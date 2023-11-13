@@ -4,7 +4,7 @@
 
 Intro - reason for project.
 
-The site can be accessed by this [link]()
+The site can be accessed by this [link](https://naomib2211.github.io/Travel-Questionnaire/)
 
 ![Responsive Mockup](.png)
 
@@ -269,7 +269,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://iuliiakonovalova.github.io/flash_cards/)
+The live link can be found [here](https://naomib2211.github.io/Travel-Questionnaire/)
 
 ---
 
