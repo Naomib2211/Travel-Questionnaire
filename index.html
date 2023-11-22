@@ -10,23 +10,61 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="script.js"></script>
 
-    <title>Travel Quiz</title>
+    <!-- TITLE OF PAGE -->
+
+    <title>Your European Travel Questionnaire</title>
 </head>
+
 <body>
-    <div class="box">
-        <div id="question-box" class="hide"></div>
-        <div id="question">Where?</div>
-        <div id="choice-buttons" class="choice-list">
-            <button class="btn">Choice 1</button>
-            <button class="btn">Choice 2</button>
-            <button class="btn">Choice 3</button>
-            <button class="btn">Choice 4</button>
-        </div>
-        <div class="keys">
+    <!-- Main Container -->
+    <main class="box">
+
+        <!-- Introductional Text to Questionnaire -->
+        <section id="intro">
+            <h1>Welcome to the Ultimate European Vacation Quiz!</h1>
+            <p>Embark on a personalized journey to unveil your perfect European getaway!
+                <br>Delve into a series of intriguing questions designed to capture the essence of your travel lifestyle. 
+                <br>From vibrant cityscapes to serene landscapes, our questionnaire will curate a destination tailored just for you.</p>
+            
+            <p>Ready for your next unforgettable adventure? 
+                <br>Click 'Start' to unlock a world of possibilities and discover where your wanderlust will lead you!</p> 
+        </section>
+        
+        <!--Question and Options Section-->
+        <section id="question-box" class="hide">
+
+            <span id="question">Where? What? Who?</span>
+                <br>
+            <span id="opt-buttons" class="opt-list">
+            <button class="btn1">Option 1</button>
+            <button class="btn2">Option 2</button>
+            <button class="btn3">Option 3</button>
+            <button class="btn4">Option 4</button>
+            </span>
+        </section>
+
+        <!--Results-->
+        <section id="result-box" class="hide">
+            Based on your choices, your travel characteristics entail:
+            <br>
+            <strong id="result-type"></strong>
+            <br><br>
+            <span id="result-text"></span>
+            <br><br>
+            Amongst the many cities to visit in Europe,
+            <br> a city that aligns with your preferences would be
+            <br><br>
+            <strong id="result-city">
+            </strong>
+            <br><br>
+        </section>
+
+        <!--Controls-->
+        <section class="keys">
             <button id="start-btn" class="start-btn btn">START</button>
-            <button id="back-btn" class="back-btn btn">BACK</button>
-        </div> 
-    </div>
+            <button id="restart-btn" class="restart-btn btn">RESTART</button>
+        </section> 
+    </main>
     
 </body>
 </html>
