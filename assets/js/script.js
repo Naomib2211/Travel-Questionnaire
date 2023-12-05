@@ -1,11 +1,24 @@
+const intro = document.getElementById("intro");
+const startBtn = document.getElementById("start-btn");
+const questionBox = document.getElementById("question-box");
+const resultBox = document.getElementById("result-box");
+const question = document.getElementById("question");
+const optionButtons = document.getElementById("opt-btns");
 
+let currentQuestion = 0;
+let totalPoints = 0;
+let questionsShuffled = [];
+let optionsShuffled = [];
+let resultType = document.getElementById("result-type");
+let resultCity = document.getElementById("result-city");
+let resultText = document.getElementById("result-text");
 
-// start btn
+// start button
 startBtn.addEventListener("click", startGame)
 
 // shuffle the questions
 function shuffleQuestions() {
-    questionsShuffled = questions.sort(() => Math.random() -0.5); 
+    questionsShuffled = question.sort(() => Math.random() -0.5); 
 }
 
 // shuffle the options
@@ -16,19 +29,18 @@ function shuffleOptions(options) {
 
 // start the game
 function startGame() {
-    welcome.classlist.add("hide");
+    intro.classlist.add("hide");
     startBtn.classlist.add("hide");
     shuffleQuestions()
-    currentQuestions = 0;
-
-questionbox.classlist.remove("hide");
+    currentQuestion = 0;
+    questionBox.classlist.remove("hide");
     getNextQ();
 }
 
 //go to next question
 
 function getNextQ() {
-    displayQuestion(questionsShuffle[currentQuestion]);
+    displayQuestion(questionsShuffled[currentQuestion]);
 }
 
 // present next question and relating options
