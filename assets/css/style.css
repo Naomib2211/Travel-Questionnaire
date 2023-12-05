@@ -10,8 +10,8 @@ body {
    padding: 0;
    margin: 0;
    display: flex;
-   width: 100vw;
-   height: 100vh;
+   width: 100%;
+   min-height: 100vh;
    justify-content: center;
    background-image: url('../images/background-image.jpg');
    background-size: cover;
@@ -38,6 +38,7 @@ body {
 h1, #question, #start-btn, #restart-btn {
     font-family: 'Karla', sans-serif;
 }
+
 
 p, .btn, #opt-btns {
     font-family: 'Merriweather', serif;

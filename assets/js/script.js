@@ -1,3 +1,5 @@
+
+
 // start btn
 startBtn.addEventListener("click", startGame)
 
