@@ -72,5 +72,23 @@ function displayQuestion(q) {
         btn.dataset.option.points; // add point value to the options
         btn.addEventListener("click", userAnswer); // add click event
         optionButtons.appendChild(btn); // push the new button into the div
+        
     });
 
+// calculate user's options
+
+    function userAnswer(btn) {
+        const selectedButton = btn.target; // add the user's new points to overall total
+        totalPoints += parseInt(selectedButton.dataset.points);
+        if (questionsShuffled.length > currentQuestion + 1) {
+            // game is still active, clear for the next question
+                optionButtons.innerHTML = "";
+                currentQuestion++;
+                getNextQ();
+        } else {
+            // all questions finished, calculation of results
+                calculateResult
+        }
+
+        
+    }
