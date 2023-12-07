@@ -47,9 +47,9 @@ function getNextQ() {
 
 function displayQuestion(q) {
     // question
-    question.innerHTML = <small>Question<strong>${currentQuestion + 1}</strong>
+    question.innerHTML = `<small>Question<strong>${currentQuestion + 1}</strong>
     of<strong>${question.length}</strong></small>;
-    <br>${q.question}</br>;
+    <br>${q.question}</br>;`
 }
 
 // shuffle the options for each new round
@@ -62,7 +62,7 @@ function displayQuestion(q) {
 
 // generate the question's options to choose from 
     
-    function generateOption(q);
+    function generateOption(q) {
     q.options.forEach(element => {
         const btn = document.createElement ("button"); 
         
@@ -74,6 +74,7 @@ function displayQuestion(q) {
         optionButtons.appendChild(btn); // push the new button into the div
         
     });
+    }
 
 // calculate user's options
 
