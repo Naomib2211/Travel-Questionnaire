@@ -62,7 +62,7 @@ function displayQuestion(q) {
 
 // generate the question's options to choose from 
     
-    function generateOption(q) {
+    function generateOption(q){
     q.options.forEach(element => {
         const btn = document.createElement ("button"); 
         
