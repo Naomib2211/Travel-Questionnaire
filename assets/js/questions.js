@@ -142,7 +142,61 @@ const questions = [{
 {
         question: "What kind of weather do you prefer during your trips?",
         options: [{
-            text:
-        }]
+            text: "I dont have a specific preference for weather",
+            points: 1
+        },
+        {
+            text: "Warm and sunny all year round",
+            points: 2
+        },
+        {
+            text: "Cool and crisp, perfect for outdoor adventures",
+            points: 3
+        },
+        {
+            text: "Mild and pleasant with a mediterranean climate",
+            points: 4
+        }
+    ]
+},
+{
+        question: "How important is a cibrant nightlife scene for you?",
+        options: [{
+            text: "I prefer more relaxed evenings with cultural experience",
+            points: 1
+        },
+        {
+            text: "Essential! I love partying until the early hours",
+            points: 2
+        },
+        {
+            text: "It's nice to have options but not a top priority",
+            points: 3
+        },
+        {
+            text: "I'm not interested in nightlife activities",
+            points: 4
+        }
+    ]
+},
+{
+        question: "What kind of budget are you planning for your trip?",
+        options: [{
+            text: "I have a flexible budget and can adapt as",
+            points: 1
+        },
+        {
+            text: "High budget for luxury experiences and accomodations",
+            points: 2
+        },
+        {
+            text: "Moderate budget with a mix of affordable and indulgent activities",
+            points: 3
+        },
+        {
+            text: "Budget-friendly options with focus on outdoor adventures",
+            points: 4
+        }
+    ]
 }
-]
+];
