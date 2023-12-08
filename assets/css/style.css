@@ -44,6 +44,9 @@ p, .btn, #opt-btns {
     font-family: 'Merriweather', serif;
 }
 
+.hide{
+    display: none;
+}
 
 
 
