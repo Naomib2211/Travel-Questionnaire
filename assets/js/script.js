@@ -14,11 +14,11 @@ let resultCity = document.getElementById("result-city");
 let resultText = document.getElementById("result-text");
 
 // start button
-startBtn.addEventListener("click", startGame)
+startBtn.addEventListener("click", startGame) 
 
 // shuffle the questions
 function shuffleQuestions() {
-    questionsShuffled = question.sort(() => Math.random() -0.5); 
+    questionsShuffled = questions.sort(() => Math.random() - 0.5); 
 }
 
 // shuffle the options
@@ -31,7 +31,7 @@ function shuffleOptions(options) {
 function startGame() {
     intro.classList.add("hide");
     startBtn.classList.add("hide");
-    shuffleQuestions()
+    shuffleQuestions();
     currentQuestion = 0;
     questionBox.classList.remove("hide");
     getNextQ();
@@ -49,7 +49,9 @@ function displayQuestion(q) {
     // question
     question.innerHTML = `<small>Question<strong>${currentQuestion + 1}</strong>
     of<strong>${question.length}</strong></small>;
-    <br>${q.question}</br>;`
+    <br>${q.question}</br>`;
+    shuffleOptions(q.options);
+    generateOptions(q);
 }
 
 // shuffle the options for each new round
@@ -62,14 +64,14 @@ function displayQuestion(q) {
 
 // generate the question's options to choose from 
     
-    function generateOption(q){
+    function generateOptions(q){
     q.options.forEach(element => {
         const btn = document.createElement ("button"); 
         
         // create <button> element 
-        btn.innerText = option.text; 
+        btn.innerText = options.text; 
         btn.classList.add("btn"); 
-        btn.dataset.option.points; // add point value to the options
+        btn.dataset.options.points; // add point value to the options
         btn.addEventListener("click", userAnswer); // add click event
         optionButtons.appendChild(btn); // push the new button into the div
         
@@ -88,8 +90,16 @@ function displayQuestion(q) {
                 getNextQ();
         } else {
             // all questions finished, calculation of results
-                calculateResult()
-        }
+                calculateResults();
+        }   
+    }
 
-        
+    // Shuffle result cities
+    function shuffleCities(cities) {
+        return cities.sort(() => Math.random() - 0.5);
+    }
+
+    // calculate points based on the user's choices
+    function calculateResults() {
+        // hide the question box
     }
