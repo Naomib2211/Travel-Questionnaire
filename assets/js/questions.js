@@ -102,7 +102,47 @@ const questions = [{
 {
         question: "Which outdoor activity excites you the most?",
         options: [{
-            
+            text: "I prefer a mix of indoor and outdoor activities",
+            points: 1
+        },
+        {
+            text: "Water sports and beach activites",
+            points: 2
+        },
+        {
+            text: "Hiking and exploring natural landscapes",
+            points: 3
+        },
+        {
+            text: "Snowboarding or skiing in the mountains",
+            points: 4
+        }
+    ]
+},
+{
+        question: "Which cultural attractions interest you the most?",
+        options: [{
+            text: "I enjoy a mix of cultural attractions",
+            points: 1
+        },
+        {
+            text: "Art galleries and vibrant street art scenes",
+            points: 2
+        },
+        {
+            text: "Historical landmarks and ancient ruins",
+            points: 3
+        },
+        {
+            text: "Museums dedicated to Nordic history and folklore",
+            points: 4
+        }
+    ]
+},
+{
+        question: "What kind of weather do you prefer during your trips?",
+        options: [{
+            text:
         }]
 }
 ]
