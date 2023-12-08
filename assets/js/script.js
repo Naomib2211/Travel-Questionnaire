@@ -29,11 +29,11 @@ function shuffleOptions(options) {
 
 // start the game
 function startGame() {
-    intro.classlist.add("hide");
-    startBtn.classlist.add("hide");
+    intro.classList.add("hide");
+    startBtn.classList.add("hide");
     shuffleQuestions()
     currentQuestion = 0;
-    questionBox.classlist.remove("hide");
+    questionBox.classList.remove("hide");
     getNextQ();
 }
 
@@ -88,7 +88,7 @@ function displayQuestion(q) {
                 getNextQ();
         } else {
             // all questions finished, calculation of results
-                calculateResult
+                calculateResult()
         }
 
         
