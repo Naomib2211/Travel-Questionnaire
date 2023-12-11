@@ -53,3 +53,7 @@ p,
 .hide {
     display: none;
 }
+
+#restart-btn {
+    margin-top: 1em;
+}

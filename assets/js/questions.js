@@ -22,7 +22,7 @@ const questions = [{
 {
     question: "How do you like to spend your evenings?",
     options: [{
-        text: "Relaxing at a cozy café or pub",
+        text: "Relaxing at a cozy café or the pub",
         points: 1
     },
     {
@@ -42,7 +42,7 @@ const questions = [{
 {
     question: "Which landscape appeals to you the most?",
     options: [{
-        text: "I enjoy a mix of different landscares",
+        text: "I enjoy a mix of different landscapes",
         points: 1
     },
     {
@@ -70,7 +70,7 @@ const questions = [{
         points: 2
     },
     {
-        text: "Nordic cuisine with fresg ingredients and seafood",
+        text: "Nordic cuisine with fresh ingredients and seafood",
         points: 3
     },
     {
@@ -160,7 +160,7 @@ const questions = [{
     ]
 },
 {
-    question: "How important is a cibrant nightlife scene for you?",
+    question: "How important is a vibrant nightlife scene for you?",
     options: [{
         text: "I prefer more relaxed evenings with cultural experience",
         points: 1
