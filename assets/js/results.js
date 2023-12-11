@@ -1,5 +1,5 @@
 const results = [
-    { 
+    {
         traveler: "Wanderer",
         text: "You love small cities with tiny streets and canals.<br>You have a liberal personality, and you like to take things easy.",
         cities: [
@@ -34,7 +34,7 @@ const results = [
             "Salzburg, Austria",
             "Bucharest, Romania",
             "Zurich, Switzerland"
-    ]
+        ]
     },
     {
         traveler: "Adventurer",

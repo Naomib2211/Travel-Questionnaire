@@ -105,25 +105,25 @@ function calculateResults() {
         // Result: Tourist
         resultType.innerText = results[3].traveler;
         resultText.innerHTML = results[3].text;
-        cities = results[3].cities; 
+        cities = results[3].cities;
 
-    }   else if (totalPoints => 21) {
+    } else if (totalPoints => 21) {
         //Result: Adventurer 
         resultType.innerText = results[2].traveler;
         resultText.innerHTML = results[2].text;
         cities = results[2].cities;
 
-    }   else if (totalPoints => 11) {
+    } else if (totalPoints => 11) {
         // Result: Entertainer
         resultType.innerText = results[1].traveler;
         resultText.innerHTML = results[1].text;
         cities = results[1].cities;
-    
+
     } else {
         // Result: Wanderer
         resultType.innerText = results[0].traveler;
         resultText.innerHTML = results[0].text;
-        cities = results[0].cities;  
+        cities = results[0].cities;
     }
 
     // Shuffle cities and select one from relevant list of cities
