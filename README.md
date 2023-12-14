@@ -79,6 +79,12 @@ Embark on a journey of discovery with our Travel Questionnaire, designed for any
 
 - Make the results page more organic and "painting the picture", with images based on the given "travel-personality", connected to suggested links to flights and living option.
 
+- Add color change feature on the chosen option button before directing to next question.
+
+#### Improvements
+
+- Increase font-size in text in the option buttons
+
 
 ## Tools & Technologies Used
 
@@ -165,6 +171,7 @@ however, it is important to be very specific about these sources to avoid plagia
 | [StackOverflow](https://stackoverflow.com/questions/70953748/increase-score-in-quiz-using-javascript) | entire site | point system for JS |
 | [SimpleStepsCode](https://simplestepscode.com/javascript-quiz-tutorial/) | entire site | understanding JS through quiz projects |
 | [ChatGPT](https://chat.openai.com/) | entire site | received suggestions on questions and language refining|
+| [Pandao](https://pandao.github.io/editor.md/en.html) | README and Testing| Understanding how to write a better in markdown documents|
 
 
 
@@ -174,19 +181,6 @@ however, it is important to be very specific about these sources to avoid plagia
 - Only image used was the background image of the entire site, from ![Unsplash](https://unsplash.com/photos/white-red-and-green-map-7dEyTJ7-8os)
 
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |

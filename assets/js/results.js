@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 const results = [
     {
         traveler: "Wanderer",

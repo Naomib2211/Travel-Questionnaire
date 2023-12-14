@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 const intro = document.getElementById("intro");
 const startBtn = document.getElementById("start-btn");
 const questionBox = document.getElementById("question-box");

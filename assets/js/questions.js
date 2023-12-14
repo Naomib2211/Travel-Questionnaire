@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 const questions = [{
 
     question: "What type of shopping experience do you prefer?",
