@@ -57,3 +57,16 @@ p,
 #restart-btn {
     margin-top: 1em;
 }
+
+/* Fix responsiveness on large screens */
+
+/* Large devices (laptops/desktops, 1440px and up) */
+
+@media only screen and (min-width: 1440px) {
+
+section {
+    font-size: 200%;
+    width: 35vw;
+
+}
+}
