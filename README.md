@@ -1,44 +1,25 @@
 # [TRAVEL QUESTIONNAIRE](https://naomib2211.github.io/Travel-Questionnaire)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Embark on a journey of discovery with our Travel Questionnaire, designed for anyone dreaming of exploring the enchanting corners of Europe. Whether you're a seasoned traveler or setting out on your first adventure abroad, our interactive questionnaire tailors suggestions to your unique travel preferences. By shuffling questions each time, you can enjoy an ever-evolving experience, unlocking a myriad of destination possibilities. Travel Questionnaire is not just an app; it's your virtual travel companion, ensuring that your next European escapade aligns perfectly with your individual desires. 
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+![](documentation/amiresponsive.png)
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+##  Design Processes
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://naomib2211.github.io/Travel-Questionnaire
+- The design vision for this project were simplicity and a retro feel. A background image of a globe where Europe is centered was chosen. Colors were extracted from this image to create a simple yet cohesive feel to the questionnaire. Choice of fonts were based on the association of older style design choices for websites. 
 
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
+### Font Design
 
-![screenshot](documentation/mockup.png)
+- 'Karla' and 'Merriweather' for fonts of this app. Based on the creators associations to older style questionnaires, these two fonts were chosen as they complimented each other. 
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
+![Karla](documentation/karla-font.png)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-## UX
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![Merryweather](documentation/merryweather.png)
 
 ### Colour Scheme
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![](documentation/color_palette.png)
 
 Explain your colours and the colour scheme.
 
