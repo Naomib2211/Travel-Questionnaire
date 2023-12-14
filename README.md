@@ -148,14 +148,8 @@ You can fork this repository by using the following steps:
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ## Credits
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+ 
+- [ChatGPT](https://chat.openai.com/) was used for generating questions and potential options of answers
 
 ### Content
 
@@ -170,7 +164,6 @@ however, it is important to be very specific about these sources to avoid plagia
 | [Youtube](https://www.youtube.com/watch?v=0ik6X4DJKCc) | entire site | Understanding the DOM better|
 | [StackOverflow](https://stackoverflow.com/questions/70953748/increase-score-in-quiz-using-javascript) | entire site | point system for JS |
 | [SimpleStepsCode](https://simplestepscode.com/javascript-quiz-tutorial/) | entire site | understanding JS through quiz projects |
-| [ChatGPT](https://chat.openai.com/) | entire site | received suggestions on questions and language refining|
 | [Pandao](https://pandao.github.io/editor.md/en.html) | README and Testing| Understanding how to write a better in markdown documents|
 
 
