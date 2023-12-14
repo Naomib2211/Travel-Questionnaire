@@ -13,174 +13,83 @@ Embark on a journey of discovery with our Travel Questionnaire, designed for any
 
 - 'Karla' and 'Merriweather' for fonts of this app. Based on the creators associations to older style questionnaires, these two fonts were chosen as they complimented each other. 
 
+- [Karla](https://fonts.google.com/specimen/Merriweather#styles) was used for the emphasized, "important" sections, such as H1, start/restart- buttons and questions
+
 ![Karla](documentation/karla-font.png)
+
+- [Merryweather](https://fonts.google.com/specimen/Karla#styles) was used for the rest, less emphasized sections, such as the paragraphs and the texts in the option-buttons.
 
 ![Merryweather](documentation/merryweather.png)
 
 ### Colour Scheme
 
+- As previously explained, these colors were chosen based on the background image of the website. Specifically these colors to create harmony but also enough contrast for accessability.  
+
 ![](documentation/color_palette.png)
 
-Explain your colours and the colour scheme.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- I used [coolors.co](https://coolors.co/ffffff-f2ceae-bf4b21-7e3217-000000) to generate my color palette.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- Here is the image the colors and the over style for this website was based on
+![](documentation/background-pic.png)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
+## The project features
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+### Introduction
 
-Example:
++ Below image shows the introductory start page. 
+    * Descriptive title
+    * Less descriptive body of text, serving the purpose of intruiging the visitor into the questionnaire, rather than describing what it is. Last pragraph describes how to start the questionnaire.
+    * Has two button features:
+        * 'START' button which leads the visitor to the start of the questionnaire
+        * 'RESTART' button which leads the visitor ta refreshed page, at this stage.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![](documentation/features3.png)
 
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+### The Quiz
 
-![screenshot](documentation/coolors.png)
++ Below image shows the structure of the questionnaire
+    * First section presents the question for the visitor to answer, it also presents which number of question the visitor is currently on. 
+    * Second section shows the descriptive options, where the visitor chooses which option suits them the best based on the question presented above the options. When the visitor chooses an option it will be directed to the next question. This will go on until the last (10th) question, at which it will calculate the points the visitor has gathered answering all the questions. 
+        * The option section is significant as this is the main feature that will create returning visitor,  it reshuffes the order of options everytime so that if the visitor wants to redo the questionnaire it won't be as predictive right away. 
+    * Last section shows the 'Restart' button that will, at any point in time the visitor wants to restart the questionnaire it will lead the visitor to the introductional start page.
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![](documentation/features2.png)
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
+### The Result
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
++ Below image presents the result section of the questionnaire. This section rewards the visitor for going through the test with "travel-personality" description, based on chosen options to the visitor. Here one gets to see the suggestion to different destinations in Europe based on ones needs and wants.
+    * The first section presents title of the visitor's "travel-personality" based on the previously answered questionnaire. In the image below the personality "Tourist" is shown. This feature was created to emphasize the feel of retro questionnaires from earlier, but also to regular personality-quizes that many are familiar with even today.
+    * The second section serves to give a deeper explanation to the resulted "personality" that was given to the visitor. This section also serves a similar purpose to the title - to describe the personality trait that the visitor has based on the questions answered.
+        * As people we are always curious of the world, but we are also curious of ourselves. Here the visitor will enjoy learning more about themselves whilst also learning where they could potentially travel to to enjoy themselves.
+        * The most important feature here, besides the descriptive text is the result destination that the visitor gets. Another feature here is added in order for the visitor to come back multiple times. Multpiple European cities were added for each "travel-personality", so that when the visitor comes back to redo the test, they are presented with other travel destinations despite maybe answering identically in the questionnaire. So, here is another shuffling-feature.
+    * The last section has, just like the other parts, the 'RESTART' button. For the visitor to redo the questionnaire over and over again. It's also always there in case the visitor wants to redo the questionnaire at any point in their progress. 
 
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
-### Typography
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
-
-## Features
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-### Existing Features
-
-- **Title for feature #1**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature01.png)
-
-- **Title for feature #2**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature02.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![](documentation/features1.png)
 
 ### Future Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- Add the [Dialog](https://blog.webdevsimplified.com/2023-04/html-dialog/) element, an interactive popup for creator's credit
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+- Suggest links to flights and living options based on visitors result 
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- Make the results page more organic and "painting the picture", with images based on the given "travel-personality", connected to suggested links to flights and living option.
 
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
 
 ## Tools & Technologies Used
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Codeanywhere](https://codeanywhere.com) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a cloud-based IDE for development.
+
 
 ## Testing
 
@@ -229,14 +138,6 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-### Local VS Deployment
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ## Credits
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
@@ -249,31 +150,26 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Content
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1045s) | entire site | gave understanding on how to structure a quiz based on JS |
+| [Youtube](https://www.youtube.com/watch?v=0ik6X4DJKCc) | entire site | Understanding the DOM better|
+| [StackOverflow](https://stackoverflow.com/questions/70953748/increase-score-in-quiz-using-javascript) | entire site | point system for JS |
+| [SimpleStepsCode](https://simplestepscode.com/javascript-quiz-tutorial/) | entire site | understanding JS through quiz projects |
+| [ChatGPT](https://chat.openai.com/) | entire site | received suggestions on questions and language refining|
+
+
 
 ### Media
+
+
+- Only image used was the background image of the entire site, from ![Unsplash](https://unsplash.com/photos/white-red-and-green-map-7dEyTJ7-8os)
+
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
@@ -291,27 +187,14 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
+| [Unsplash](https://unsplash.com/photos/white-red-and-green-map-7dEyTJ7-8os) | entire site | image | Background image|
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my mother (Genet), for believing in me, and allowing me to make this transition into software development. 
+- I would lastly like to thank the staff at Student Care at [Code Institute](https://codeinstitute.net) for guiding me through this difficult time. Through the practical and less practical challenges during this period.
 
