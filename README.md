@@ -13,11 +13,15 @@ Embark on a journey of discovery with our Travel Questionnaire, designed for any
 
 - 'Karla' and 'Merriweather' for fonts of this app. Based on the creators associations to older style questionnaires, these two fonts were chosen as they complimented each other. 
 
-- [Karla](https://fonts.google.com/specimen/Merriweather#styles) was used for the emphasized, "important" sections, such as H1, start/restart- buttons and questions
+    +  [Karla](https://fonts.google.com/specimen/Karla#styles) was used for the emphasized, "important" sections, such as H1, start/restart- buttons and questions
 
-![Karla](documentation/karla-font.png)
 
-- [Merryweather](https://fonts.google.com/specimen/Karla#styles) was used for the rest, less emphasized sections, such as the paragraphs and the texts in the option-buttons.
+![Karla](documentation/karla-font.png) 
+
+
+
+    + [Merryweather](https://fonts.google.com/specimen/Merriweather#styles) was used for the rest, less emphasized sections, such as the paragraphs and the texts in the option-buttons.
+
 
 ![Merryweather](documentation/merryweather.png)
 
